@@ -23,7 +23,6 @@ class TableViewCell: UITableViewCell {
         }
     }
     
-    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -39,7 +38,6 @@ class TableViewCell: UITableViewCell {
         let age = UILabel(frame: CGRect(x: 350, y: 5, width: 50, height: 20))
         age.textColor = .black
         age.font = UIFont(name: "Arial", size: 20)
-
         return age
     }()
 }

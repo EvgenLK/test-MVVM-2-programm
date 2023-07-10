@@ -14,16 +14,14 @@ class TableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         viewModel = ViewModel()
-        
         tableView.register(TableViewCell.self, forCellReuseIdentifier: "cell")
     }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1 // этот метод можно удалить можно оставить, результат всегда если что будет 1
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

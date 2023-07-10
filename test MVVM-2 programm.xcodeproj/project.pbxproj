@@ -58,7 +58,6 @@
 		9B96602A2A54CDF6008F7D72 = {
 			isa = PBXGroup;
 			children = (
-				9B6EBCF02A595F95006BC903 /* Box.swift */,
 				9B9660352A54CDF6008F7D72 /* test MVVM-2 */,
 				9B9660342A54CDF6008F7D72 /* Products */,
 			);
@@ -75,6 +74,7 @@
 		9B9660352A54CDF6008F7D72 /* test MVVM-2 */ = {
 			isa = PBXGroup;
 			children = (
+				9B6EBCF02A595F95006BC903 /* Box.swift */,
 				9B9660362A54CDF6008F7D72 /* AppDelegate.swift */,
 				9B9660382A54CDF6008F7D72 /* SceneDelegate.swift */,
 				9BB3022E2A5593B100A02EAF /* ViewModel */,

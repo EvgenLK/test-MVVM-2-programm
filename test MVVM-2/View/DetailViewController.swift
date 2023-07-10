@@ -34,7 +34,7 @@ class DetailViewController: UIViewController {
             self.textLabel.text = string
         }
         
-        delay(delay: 5) { [unowned self] in
+        delay(delay: 3) { [unowned self] in
             self.viewModel?.age.value = "some new value"
         }
     }
